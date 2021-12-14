@@ -1,0 +1,66 @@
+//-----> $SITE
+
+html  {
+    font-size: 100%;
+  }
+  body, html {
+    height: 100%
+  }
+  body {
+    background-color: $main-color;
+    color: $white;
+  
+  & .top_elements {
+     
+      padding: 10px;
+      
+    
+  
+      & .logo {
+        border-radius: 15px;
+        padding: 5 30;
+        background-color: $light-pink;
+        padding: 5px 30px;
+        
+      }
+    
+      & .log_out {
+        float: right;
+  
+        & svg {
+          width: 15px;
+          height: 15px;
+          vertical-align: middle;
+          margin-left: 5px;
+        }
+      }
+  }
+  
+  
+  }
+  
+  .header {
+    display: block;
+    justify-content: center;
+  
+  
+    & .user {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+  
+      & .name{
+        padding: 5px;
+      }
+    }
+  
+  }
+  
+  
+  
+  svg {
+    width: 25px;
+    height: 25px;
+  }
+  

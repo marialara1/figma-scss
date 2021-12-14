@@ -1,0 +1,26 @@
+//-----> $TYPOGRAPHY
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    & .top_elements {
+        & a {
+            color: $white;
+            font-weight: 700;
+            font-size: 14px;
+        }
+        
+    }
+
+    & .name {
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    & a {
+        text-decoration: none;
+        font-weight: 400;
+    }
+}

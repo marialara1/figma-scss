@@ -1,0 +1,36 @@
+.card-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: $space--medium;
+    background-color: $nd-color;
+    color: white;
+    margin: 0 18px 25px 18px;
+    width: 125px;
+    height: 125px;
+    border-radius: 15px;
+  
+    & svg {
+      padding: 25px;
+    }
+  
+    &:visited {
+      color: white;
+    }
+  
+    &__container {
+      display: flex;
+      @include max-width(680px);
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  
+  a:hover {
+    background-color: $main-color;
+    transform: scale(1.2);
+    box-shadow: 0px 5px 5px $dark-pink;
+    border-radius: 10px;
+  
+  }
